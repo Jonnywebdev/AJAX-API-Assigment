@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="css/main.css">
+	<title>OMDb template</title>
+</head>
+
+<body>
+
+	<h1>Api ajax assigment </h1>
+	<!-- When you press down a key in the input field creatcontent function will be called and clear the content
+	and on key up it will run fetchData -->
+	<input id="input-movie" type="text" onkeydown ="clearcontent('display')" placeholder="search movie/series" >
+	<!-- this button dose the same as the input field  -->
+	<button id="fetch-btn" onclick = "clearcontent('display')">search</button>
+	<!-- indise this div with the id display everything will appear -->
+	<div id="display" class="container">
+		
+	</div>
+	
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>
